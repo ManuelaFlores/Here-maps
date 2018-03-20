@@ -1,7 +1,7 @@
 import React from 'react';
-
+import Header from './Header';
 const App = () => (
-  <div>React and redux are cool</div>
+  <Header/>
 )
 
 export default App
