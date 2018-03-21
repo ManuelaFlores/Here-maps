@@ -1,7 +1,15 @@
 import React from 'react';
-import Header from './Header/Header';
+
+import Header from './header/Header';
+import Main from './home/Main';
+import OptionsList from './home/OptionsList';
+
 const App = () => (
-  <Header/>
+  <div className ="">
+    <Header/>
+    <Main/>
+    <OptionsList/>
+  </div>
 )
 
-export default App
+export default App;
