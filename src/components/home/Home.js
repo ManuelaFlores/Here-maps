@@ -1,4 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Header from './../Header/Header'
+import Main from './Main';
+import OptionList from './OptionsList';
 import {
 	BrowserRouter,
 	Route,
@@ -6,9 +9,8 @@ import {
 	NavLink,
 	Redirect
 } from 'react-router-dom';
-import Header from './../Header/Header'
-import Main from './Main';
-import OptionList from './OptionsList';
+
+
 const Home = ( {model} ) => {
     return(
     <div>

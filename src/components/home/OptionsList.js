@@ -7,7 +7,7 @@ import {
   Redirect
 } from 'react-router-dom'
 
-const OptionList = ({model} ) => {
+const OptionList = ({ model }) => {
 
   return (
     <ul className="bg-options-list m-0 p-0">
@@ -19,11 +19,9 @@ const OptionList = ({model} ) => {
       </li>
       <li className="text-white p-3 item-styles d-flex justify-content-center font-weight-light">
 
-        <NavLink to={"/Favorites"}
-          className="btn btn-lyft btn-lg btn-block"
-        >
+        <NavLink to={"/Favorites"} className="btn btn-lyft btn-lg btn-block" >
           Mis rutas
-                    </NavLink>
+        </NavLink>
         <i className="fas fa-heart px-3 icon-color"></i>
       </li>
     </ul>
