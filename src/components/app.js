@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Home from './home/Home';
 import Favorites from './Favorites/Favorites';
+
 import {
 	BrowserRouter,
 	Route,

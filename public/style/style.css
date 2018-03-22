@@ -1,0 +1,53 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.img-size{
+  height: 400px;
+}
+
+.bg-options-list{ 
+  background: #1E293B;
+}
+
+.item-styles{
+  list-style: none;
+}
+
+.item-styles:hover{
+  background: rgb(29, 36, 46);
+  cursor: pointer;
+}
+
+.box-input-styles{ 
+  background: rgb(55, 70, 94);
+  border-radius: 5px;
+  /* box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75); */
+  box-shadow: 2px 10px 33px -6px rgba(0,0,0,0.75); 
+}
+
+.input-styles{
+  background: transparent; 
+  border-radius: 5px;
+  border: none; 
+  background: rgb(55, 70, 94);
+}
+
+.input-styles:focus{
+  outline: none;
+}
+
+.icon-search-styles{
+  font-size: 1.2em;
+  padding: 6px 6px 2px 2px;
+}
+
+.icon-color{
+  color: #48DAD0;
+}
+/* Favorites */
+
+.back {
+  font-size: 35px;
+  padding: 10px;
+  color: #343a40;
+}

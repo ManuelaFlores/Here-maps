@@ -2,6 +2,7 @@ import React from 'react';
 import CardFavorite from './CardFavorite';
 import Header from './../Header/Header';
 import css from "./Favorites.css"
+
 import {
   BrowserRouter,
   Route,

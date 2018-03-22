@@ -1,9 +1,14 @@
 import React from 'react';
+import imag from '../../assets/images/mapa.png';
 
 const CardFavorite = ({ fav, mapaurl }) => (
   <div className="sectFavorites">
     <div className="card mb-4 box-shadow">
-      <img src={mapaurl} className="card-img-top" alt="Card image cap" />
+    <div className="col-4">
+          <div class="text-center">
+          <img src={imag} className="card-img-top" alt="Card image cap" />
+          </div>     
+        </div>
       <div className="card-body">
         <p className="card-text">
           {fav}
