@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Header/Header';
 import Favorites from './Favorites/Favorites';
 
 const data = [
@@ -9,7 +8,6 @@ const data = [
 
 const App = () => (
   <div>
-  <Header/>
   <Favorites information={data}/>
   </div>
 )
