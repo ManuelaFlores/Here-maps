@@ -44,3 +44,13 @@
 .icon-color{
   color: #48DAD0;
 }
+.title{
+    background-color: #00afaa;
+    padding: 10px;
+    font-weight: 400;
+    color: #e8f8f7;
+  }
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }
