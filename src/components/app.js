@@ -1,22 +1,28 @@
-import React from 'react';
-import Header from './Header/Header';
-import Main from './home/Main';
-import OptionsList from './home/OptionsList';
+import React, {Component} from 'react';
+import {
+	BrowserRouter,
+	Route,
+	Switch,
+	Redirect
+} from 'react-router-dom';
+import Home from './home/Home';
 import Favorites from './Favorites/Favorites';
 
-const data = [
-  {descripcion: 'Sporting Goods', mapaurl: 'src/assets/images/mapa.png'},
-  {descripcion: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.', mapaurl: 'src/assets/images/mapa.png'}
-]
 
+const App = (props) => {
+	const {model} =  props;
+	console.log('app.props', props)
+	return (<BrowserRouter>
+		<div>
+			<Switch>
+			<Route  path="/Lyft-app-react"
+				       render={() => <Redirect to= {'/home'}/>}/>
+			<Route  path="/Favorites" render={() => <Favorites model={model} />}/>
 
-const App = () => (
-  <div className ="">
-    <Header/>
-    <Main/>
-    <OptionsList/>
-    <Favorites information={data}/>
-    </div>
-)
+				<Route component={Home}/>
+			</Switch>
+		</div>
+	</BrowserRouter>)
+}
 
 export default App;
